@@ -1,6 +1,7 @@
 <?php
 include 'config.php';
 
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Ensure that the required fields are present in the POST request
     if (isset($_POST['classDate'], $_POST['semester'], $_POST['division'], $_POST['regNumber'], $_POST['name'], $_POST['status'])) {
